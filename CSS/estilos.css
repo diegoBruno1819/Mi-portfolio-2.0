@@ -1,0 +1,225 @@
+*{font-family: 'Montserrat', sans-serif; 
+font-weight: 400; 
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+:root{ 
+    --rojo:#E20000;
+    --violeta:#370A6D;
+
+}
+body{
+    background-image: url("../img/fondo1.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   /*  background-attachment: fixed;    */
+    height: 400vh;
+
+}
+
+header{
+    padding: 2vh 7vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+.btn-cv{
+
+ background-color: #E20000;
+ border-radius: 20px;
+ border: none;
+ color:white;
+ padding: 13px 14px;
+ display: flex;
+gap: 6px;
+font-size: 12px;
+font-weight: 600;
+}
+.btn-cv i{
+    font-weight: bolder;
+    
+}
+.btn-cv:hover{
+    background-color: #370A6D;
+    transition: all 1s ease-in;
+
+}
+
+.hero{
+    display: flex;
+    padding: 10vh 10vw;
+
+}
+.retrato{
+    width: 300px;
+    border-radius: 220px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+
+
+}
+.redes{
+    padding-right: 14px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.redes-icon{
+
+    display: flex;
+    gap: 12px;
+    font-size: 40px;
+    color:var(--rojo);
+}
+.img-hero{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info-hero{
+    width: 50%;
+
+}
+.mb{
+    margin-bottom: 5vh;
+}
+.info-hero h1{
+
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--rojo);
+}
+.here{
+    border: solid var(--rojo) 1px;
+    border-radius: 16px;
+    padding: 7px;
+}
+.tecnologias{ /*Seccion tecnologias*/
+
+    padding: 3rem;
+    background: rgb(130,2,2);
+background: linear-gradient(45deg, rgba(130,2,2,1) 0%, rgba(233,0,0,1) 100%);
+    /* width: 100vw; */
+}
+.tecnologias h2{
+    margin-bottom: 3vh;
+    color: white;
+    font-weight: 600;
+}
+.card-tecnologia{   
+    padding: 8px 10px 30px;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contenedor-tecnologias{
+    
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items:center ;
+    gap: 1rem;
+   
+
+}
+/* .experiencia{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    background-color: #EDEDED;
+
+}
+.experiencia-card{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+
+   
+}
+.experiencia-icon-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: var(--violeta) ;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.experiencia-icon-conteiner i{
+    display:inline-block; */
+
+    .experiencia{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        background-color: #EDEDED;
+        /* width: 100px;
+        height: 100px;/* quiero agrandar el contenedor de idiomas y hobbies*/
+        padding:30px;
+    }
+    .experiencia-card{
+    
+        width: 600px;
+        display: flex;  
+       /*  border: 70px black;  quiero agregarle un borde a la card */
+
+    
+       
+    }
+    .experiencia-icon-conteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        background-color: var(--violeta) ;
+        color: white;
+        padding: 40px;
+        border-radius: 20px;
+    
+    }
+    
+    .experiencia-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .experiencia-icon-conteiner i{
+        display:inline-block;
+        line-height: 0px;
+    }
+
+    .hobbies-icon-conteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        background-color: var(--violeta) ;
+        color: white;
+        padding: 40px;
+        border-radius: 20px;
+    }
